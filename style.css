@@ -1,0 +1,13 @@
+img {
+    width: 800px;
+    height: auto;
+    opacity: 0;
+    transform: translateX(10%);
+    transition: opacity 3s ease-in-out, transform 3s ease-in-out;
+
+}
+
+img.visible {
+    opacity: 1;
+    transform: translateX(0);
+}
