@@ -1,13 +1,18 @@
-img {
-    width: 800px;
-    height: auto;
-    opacity: 0;
-    transform: translateX(10%);
-    transition: opacity 3s ease-in-out, transform 3s ease-in-out;
+.img {
+  height: 500px;
+  background-color: #f0f0f0;
+  opacity: 0;
+  transform: translateX(-100%);
+  transition-duration: 500ms;
 
 }
-
-img.visible {
-    opacity: 1;
-    transform: translateX(0);
+.animation-image {
+  transform: translateX(0%);
+  opacity: 1;
+}
+.image-item {
+  height: 700px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
 }
